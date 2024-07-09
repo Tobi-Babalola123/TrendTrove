@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import logo from "../../ASSETS/logo.png";
 import Dropdown from "react-bootstrap/Dropdown";
 import { Link } from "react-router-dom";
+import wishlist from "../../ASSETS/Images/wishlist.svg";
 const Navbar = ({ reloadnavbar }) => {
   const [cartquantity, setcartquantity] = useState(0);
 
@@ -47,7 +47,7 @@ const Navbar = ({ reloadnavbar }) => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-6 h-6 filter-black"
             >
               <path
                 strokeLinecap="round"
@@ -59,26 +59,7 @@ const Navbar = ({ reloadnavbar }) => {
         </div>
 
         <div className="right">
-          <div className="cart">
-            <span className="qty">{cartquantity}</span>
-            <Link to="/cart" className="stylenone">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
-                />
-              </svg>
-            </Link>
-          </div>
-          <Dropdown>
+          <Dropdown className="dropdowns">
             <Dropdown.Toggle variant="" id="dropdown-basic">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -105,6 +86,38 @@ const Navbar = ({ reloadnavbar }) => {
               <Dropdown.Item href="#">Logout</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
+
+          <div className="">
+            <span className=""></span>
+            <Link to="/cart" className="stylenone">
+              <img
+                className="svg-img"
+                height={25}
+                width={25}
+                src={wishlist}
+                alt="bootstrap"
+              />
+            </Link>
+          </div>
+          <div className="cart">
+            <span className="qty">{cartquantity}</span>
+            <Link to="/cart" className="stylenone">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                />
+              </svg>
+            </Link>
+          </div>
         </div>
       </div>
       <div className="s2">
@@ -156,9 +169,9 @@ const Navbar = ({ reloadnavbar }) => {
       {shows3 ? (
         <div className="s3">
           <div className="s31">
-            <img src={logo} alt="logo" className="logo" />
+            <h2 className="title">TrendTrove</h2>
             <svg
-              xmlns="http://www.w3.org/2000/svg"
+              // xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
@@ -213,12 +226,10 @@ const Navbar = ({ reloadnavbar }) => {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">
-                    Fresh Vegetables
-                  </Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">Fresh Fruits</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1">Men clothing</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Skincare</Dropdown.Item>
                   <Dropdown.Item href="#/action-3">
-                    House Cleaning
+                    Women clothing
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
@@ -309,14 +320,14 @@ const Navbar = ({ reloadnavbar }) => {
       ) : (
         <div className="s3">
           <div className="s31">
-            <img src={logo} alt="logo" className="logo" />
+            <h2 className="title">TrendTrove</h2>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-6 h-6 filter-black"
               onClick={() => setshows3(!shows3)}
             >
               <path

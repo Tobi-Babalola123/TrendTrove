@@ -1,7 +1,7 @@
 .bannerslider {
   width: 100%;
   overflow: hidden;
-  /* height: 60vh; */
+  height: 60vh;
   position: relative;
 }
 

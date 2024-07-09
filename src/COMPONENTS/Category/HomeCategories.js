@@ -7,7 +7,7 @@ import img4 from "../../ASSETS/Images/4.png";
 
 const HomeCategories = () => {
   return (
-    <div className="homecategories">
+    <div className="homecategories hover08 column">
       <div className="container">
         {/* <img src= alt="img1" /> */}
         <figure>

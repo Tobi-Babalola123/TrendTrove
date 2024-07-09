@@ -4,6 +4,7 @@ import HomeCategories from "../../COMPONENTS/Category/HomeCategories";
 import Footer1 from "../../COMPONENTS/Footer/Footer1";
 import Footer2 from "../../COMPONENTS/Footer/Footer2";
 import Navbar from "../../COMPONENTS/Navbar/Navbar";
+import Product_Sidebar from "../../COMPONENTS/Product/Product_Sidebar";
 import img1 from "../../ASSETS/Images/pots.png";
 import img2 from "../../ASSETS/Images/sneakers.png";
 import img3 from "../../ASSETS/Images/Air fryer.jpeg";
@@ -118,8 +119,8 @@ const Home = () => {
       ProductMaterial: "Material 1",
       ProductQuantity: 10,
       ProductUnit: "Unit 1",
-      ProductPrice: 15000,
-      SalesPrice: 6000,
+      ProductPrice: 20000,
+      SalesPrice: 10000,
       ProductDiscount: 10,
       ProductDiscountType: "Percentage",
       ProductTax: 20,
@@ -193,8 +194,8 @@ const Home = () => {
       ProductMaterial: "Material 1",
       ProductQuantity: 10,
       ProductUnit: "Unit 1",
-      ProductPrice: 65000,
-      SalesPrice: 50000,
+      ProductPrice: 45000,
+      SalesPrice: 30000,
       ProductDiscount: 30,
       ProductDiscountType: "Percentage",
       ProductTax: 20,
@@ -268,8 +269,8 @@ const Home = () => {
       ProductMaterial: "Material 1",
       ProductQuantity: 10,
       ProductUnit: "Unit 1",
-      ProductPrice: 25000,
-      SalesPrice: 17000,
+      ProductPrice: 30000,
+      SalesPrice: 20000,
       ProductDiscount: 20,
       ProductDiscountType: "Percentage",
       ProductTax: 20,
@@ -343,8 +344,8 @@ const Home = () => {
       ProductMaterial: "Material 1",
       ProductQuantity: 10,
       ProductUnit: "Unit 1",
-      ProductPrice: 37377,
-      SalesPrice: 33575,
+      ProductPrice: 35000,
+      SalesPrice: 27000,
       ProductDiscount: 10,
       ProductDiscountType: "Percentage",
       ProductTax: 20,
@@ -418,8 +419,8 @@ const Home = () => {
       ProductMaterial: "Material 1",
       ProductQuantity: 10,
       ProductUnit: "Unit 1",
-      ProductPrice: 47.899,
-      SalesPrice: 27.899,
+      ProductPrice: 47899,
+      SalesPrice: 27899,
       ProductDiscount: 30,
       ProductDiscountType: "Percentage",
       ProductTax: 20,
@@ -470,7 +471,7 @@ const Home = () => {
       <Navbar reloadnavbar={false} />
       <BannerSlider />
       <HomeCategories />
-      {/* <Product_Sidebar /> */}
+      <Product_Sidebar />
       <Footer1 />
 
       <div className="slidercont">

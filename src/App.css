@@ -1,6 +1,5 @@
-
 :root {
-  --col1: #7ED957;
+  --col1: #7ed957;
   --col2: gray;
   --col3: #cecece;
 }
@@ -10,17 +9,17 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
-
-#dropdown-basic {
+body #dropdown-basic {
   outline: none;
   border: none;
   margin: 0px;
   padding: 0px;
 }
 
-.goback{
+.goback {
   background-color: var(--col1);
   color: white;
   border: none;
@@ -37,19 +36,18 @@
   min-width: 100px;
 }
 
-.goback svg{
+.goback svg {
   margin-right: 5px;
   width: 15px;
   height: 15px;
 }
 
-
-.stylenone{
+.stylenone {
   text-decoration: none;
   color: inherit;
 }
 
-.mainhead1{
+.mainhead1 {
   color: var(--col1);
   font-size: 30px;
   font-weight: 300;
@@ -57,7 +55,7 @@
   margin-top: 10px;
 }
 
-.mainbutton1{
+.mainbutton1 {
   background: none;
   border: 1px solid var(--col1);
   padding: 10px 20px;
@@ -69,7 +67,6 @@
   color: var(--col1);
 }
 
-
 .mainbutton1:hover {
   background-color: var(--col1);
   color: white;
@@ -77,9 +74,8 @@
   transition: all 0.6s ease-in-out;
 }
 
-
 @media screen and (max-width: 768px) {
-  .mainhead1{
+  .mainhead1 {
     font-size: 20px;
   }
 }

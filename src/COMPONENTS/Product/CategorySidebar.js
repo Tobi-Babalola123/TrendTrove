@@ -50,9 +50,9 @@ const CategorySidebar = () => {
   //   ];
   return (
     <div className="categorysidebar">
-      {dato.map((item) => {
+      {/* {dato.map((item) => {
         return <div className="category"></div>;
-      })}
+      })} */}
     </div>
   );
 };

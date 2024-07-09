@@ -6,9 +6,6 @@ import img2 from "../../ASSETS/Images/2.png";
 import img3 from "../../ASSETS/Images/3.png";
 import img4 from "../../ASSETS/Images/4.png";
 import img5 from "../../ASSETS/Images/jacket.png";
-import sneakers from "../../ASSETS/Images/sneakers.png";
-import pots from "../../ASSETS/Images/pots.png";
-import Air from "../../ASSETS/Images/Air fryer.jpeg";
 import Footer1 from "../../COMPONENTS/Footer/Footer1";
 import Footer2 from "../../COMPONENTS/Footer/Footer2";
 import Navbar from "../../COMPONENTS/Navbar/Navbar";
@@ -665,7 +662,7 @@ const ProductPage = () => {
                     <img
                       src={item.image}
                       alt=""
-                      className={activeimg.id == item.id ? "active" : ""}
+                      className={activeimg.id === item.id ? "active" : ""}
                     />
                   </div>
                 );
@@ -678,7 +675,7 @@ const ProductPage = () => {
 
         <div className="c12">
           <h1 className="head1">{productdata.ProductName}</h1>
-          <div className="c121">
+          <div className="c12">
             <p className="price">
               ${productdata.SalesPrice * count}
               <span>${productdata.ProductPrice * count}</span>
@@ -709,6 +706,7 @@ const ProductPage = () => {
 
           <div className="btncont">
             <button
+              type="button"
               onClick={() => {
                 addtocart();
               }}

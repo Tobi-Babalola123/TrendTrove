@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 20px 0px;
+  margin: 20px 4rem;
 }
 
 .homecategories .container {
@@ -72,7 +72,29 @@
   text-decoration: none;
   color: #0f0e0e;
 }
+.category-label:hover {
+  text-decoration: none;
+  color: #0f0e0e;
+}
 
-/* .category-name_kids {
-  /* margin-left: 1.5rem; */
-/* } */
+.category-name {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #0f0e0e;
+}
+.category-name_kids {
+  margin-left: 4rem;
+  text-decoration: none;
+  color: #0f0e0e;
+}
+
+.hover08 figure img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.hover08 figure:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}

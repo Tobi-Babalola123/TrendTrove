@@ -1,3 +1,7 @@
+/* * {
+  overflow-x: hidden;
+} */
+
 nav {
   display: flex;
   flex-direction: column;
@@ -18,6 +22,20 @@ nav svg {
   font-weight: 700;
   color: black;
 }
+.brand-title:hover {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+}
+
+.svg-img {
+  margin-right: -5rem;
+}
+
+/* .svg-menu {
+  margin-left: -2rem;
+} */
 
 nav svg:hover {
   color: var(--col1);
@@ -45,6 +63,11 @@ nav .searchbar {
   justify-content: space-between;
   width: 50%;
   background-color: white;
+}
+
+.filter-black {
+  filter: invert(0%) sepia(99%) saturate(0%) hue-rotate(238deg) brightness(98%)
+    contrast(101%);
 }
 
 nav .searchbar input {
@@ -78,13 +101,22 @@ nav .s1 .right {
   align-items: center;
 }
 
+.title {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.dropdowns {
+  margin-right: -4rem;
+}
+
 nav .cart {
   position: relative;
   margin: 0px 20px;
 }
 
 nav .cart .qty {
-  background-color: var(--col1);
+  background-color: orange;
   color: white;
   border-radius: 50%;
   /* padding: 1px; */
@@ -118,7 +150,7 @@ nav .s2 a {
 }
 
 nav .s2 a:hover {
-  color: var(--col1);
+  color: orangered;
 }
 
 nav .s3 {
@@ -181,7 +213,7 @@ nav .s3 {
     display: flex;
     align-items: center;
     gap: 20px;
-    background-color: var(--col1);
+    background-color: orangered;
     width: 150px;
     padding: 10px;
     border-radius: 5px;
