@@ -36,7 +36,7 @@ const Navbar = ({ reloadnavbar }) => {
         <div className="searchbar">
           <input
             typ="text"
-            placeholder="Search for products and categries"
+            placeholder="Search for products and categories"
             className="search"
           />
 

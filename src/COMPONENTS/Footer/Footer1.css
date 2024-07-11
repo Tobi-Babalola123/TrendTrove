@@ -7,11 +7,13 @@
   background-color: rgb(240, 240, 240);
   height: 350px;
   margin-top: 30px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
+
 /* .footer1 .left{
     width: 45%;
 } */
+
 .footer1 .left img {
   width: 100%;
 }
