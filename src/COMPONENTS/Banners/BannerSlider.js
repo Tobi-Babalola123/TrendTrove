@@ -6,11 +6,6 @@ const BannerSlider = () => {
   const data = [
     {
       id: 1,
-      image: "https://i.ibb.co/j5SrnXh/models.jpg",
-    },
-
-    {
-      id: 2,
       image: "https://i.ibb.co/WgCF0TY/slider.jpg",
     },
   ];

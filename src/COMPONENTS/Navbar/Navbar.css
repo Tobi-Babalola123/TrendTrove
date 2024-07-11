@@ -1,6 +1,6 @@
-/* * {
+* {
   overflow-x: hidden;
-} */
+}
 
 nav {
   display: flex;
@@ -8,6 +8,7 @@ nav {
   padding: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   background-color: orange;
+  margin-bottom: 1rem;
 }
 
 nav svg {
@@ -38,7 +39,7 @@ nav svg {
 } */
 
 nav svg:hover {
-  color: var(--col1);
+  color: orangered;
 }
 
 nav .s1 {
@@ -78,11 +79,11 @@ nav .searchbar input {
 }
 
 nav .searchbar svg {
-  color: var(--col1);
+  color: orange;
 }
 
 nav .searchbar svg:hover {
-  background-color: var(--col1);
+  background-color: orange;
   color: white;
   border-radius: 50%;
   padding: 5px;

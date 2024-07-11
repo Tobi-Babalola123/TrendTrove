@@ -23,13 +23,13 @@
   font-weight: 700;
 }
 
-/* .cartcont table .cartitemrow th {
-    padding: 10px 0;
-    text-align: left;
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--col3);
-} */
+.cartcont table .cartitemrow th {
+  padding: 10px 0;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 700;
+  color: orange;
+}
 
 .cartcont table .cartitemrow {
   border-bottom: 1px solid #e0e0e0;
@@ -66,7 +66,7 @@
   border: 1px solid #e0e0e0;
   border-radius: 5px;
   background-color: orange;
-  color: var(--col3);
+  color: orange;
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
@@ -89,7 +89,7 @@
   height: 30px;
   font-size: 16px;
   cursor: pointer;
-  color: var(--col1);
+  color: orange;
   margin-left: 10px;
 }
 
@@ -101,7 +101,7 @@
 .cartcont .totaltableright {
   font-weight: 600;
   font-size: 16px;
-  color: var(--col2);
+  color: orange;
 }
 
 .emptycart {
@@ -115,13 +115,13 @@
 .emptycart svg {
   width: 100px;
   height: 100px;
-  color: var(--col1);
+  color: orange;
 }
 
 .emptycart p {
   font-size: 20px;
   font-weight: 300;
-  color: var(--col1);
+  color: orange;
   margin: 0px;
   padding: 0px;
 }

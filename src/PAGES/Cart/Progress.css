@@ -22,13 +22,13 @@
 .progress .c1 svg {
   width: 30px;
   height: 30px;
-  color: var(--col3);
+  color: orange;
   cursor: pointer;
 }
 .progress .c1 span {
   font-size: 16px;
   font-weight: 400;
-  color: var(--col3);
+  color: orange;
   cursor: pointer;
 }
 
@@ -42,7 +42,7 @@
 .progress .c11 svg {
   width: 30px;
   height: 30px;
-  color: var(--col1);
+  color: orange;
   cursor: pointer;
 }
 .progress .c11 span {

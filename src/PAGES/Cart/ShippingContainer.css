@@ -38,7 +38,7 @@
   border: 1px solid #e0e0e0;
   border-radius: 5px;
   background-color: white;
-  color: var(--col2);
+  color: orange;
   font-size: 16px;
   font-weight: 400;
   padding: 0 10px;
@@ -47,7 +47,7 @@
 
 .shippingcont .selectdate input:focus {
   outline: none;
-  border: 1px solid var(--col1);
+  border: 1px solid orange;
 }
 
 .shippingcont h3 {
@@ -67,7 +67,7 @@
 .shippingcont .radio span {
   font-size: 15px;
   font-weight: 400;
-  color: var(--col2);
+  color: orange;
 }
 /* .shippingcont .radio input[type="radio"] {
 
@@ -87,7 +87,7 @@
   border: 1px solid #e0e0e0;
   border-radius: 5px;
   background-color: white;
-  color: var(--col2);
+  color: orange;
   font-size: 16px;
   font-weight: 400;
   padding: 0 10px;
@@ -96,7 +96,7 @@
 
 .shippingcont .shippingadd input:focus {
   outline: none;
-  border: 1px solid var(--col1);
+  border: 1px solid orange;
 }
 
 .shippingadd button {
@@ -109,6 +109,9 @@
   font-weight: 700;
   cursor: pointer;
   color: white;
+}
+.shippingadd button:hover {
+  background-color: orangered;
 }
 
 @media screen and (max-width: 800px) {

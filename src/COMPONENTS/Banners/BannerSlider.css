@@ -1,7 +1,7 @@
 .bannerslider {
   width: 100%;
   overflow: hidden;
-  height: 60vh;
+  /* height: 100vh; */
   position: relative;
 }
 
@@ -9,8 +9,9 @@
   background-color: black;
   display: flex;
   position: relative;
-  width: 99%;
-  height: 60vh;
+  width: 93%;
+  height: 100vh;
+  margin-left: 0rem;
 }
 
 .bannerslider .imagecont img {
@@ -64,7 +65,7 @@
 }
 
 .bannerslider .imagecont button:hover {
-  background-color: var(--col1);
+  background-color: orange;
   color: white;
 }
 
