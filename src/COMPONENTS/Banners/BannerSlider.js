@@ -8,6 +8,11 @@ const BannerSlider = () => {
       id: 1,
       image: "https://i.ibb.co/WgCF0TY/slider.jpg",
     },
+
+    {
+      id: 2,
+      image: "https://i.ibb.co/j5SrnXh/models.jpg",
+    },
   ];
 
   var settings = {

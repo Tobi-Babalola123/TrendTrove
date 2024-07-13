@@ -13,7 +13,20 @@ nav svg {
   cursor: pointer;
 }
 
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  visibility: hidden;
+}
+
 .brand-title {
+  font-family: "Archivo Black", sans-serif;
   text-decoration: none;
   font-size: 2rem;
   font-weight: 700;
@@ -38,6 +51,11 @@ nav svg:hover {
   color: orangered;
 }
 
+.cartIcon {
+  width: 35px;
+  height: 35px;
+}
+
 nav .s1 {
   width: 100%;
   display: flex;
@@ -60,6 +78,7 @@ nav .searchbar {
   justify-content: space-between;
   width: 50%;
   background-color: white;
+  border-radius: 26px;
 }
 
 .filter-black {
@@ -75,11 +94,11 @@ nav .searchbar input {
 }
 
 nav .searchbar svg {
-  color: orange;
+  color: rgb(8, 8, 8);
 }
 
 nav .searchbar svg:hover {
-  background-color: orange;
+  background-color: rgb(9, 9, 9);
   color: white;
   border-radius: 50%;
   padding: 5px;
@@ -134,8 +153,10 @@ nav .s2 {
   justify-content: center;
   align-items: center;
   padding: 5px;
-  gap: 3%;
+  gap: 5%;
+  margin-right: 6rem;
   background-color: orange;
+  margin-top: 1rem;
 }
 
 nav .s2 a {

@@ -26,6 +26,10 @@
   display: flex;
   flex-direction: column;
 }
+.footerin1 .f1 h2 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 1.9rem;
+}
 
 .footerin1 .f1 img {
   width: 200px;

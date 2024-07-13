@@ -48,6 +48,10 @@
   color: orange;
 }
 
+.naira {
+  text-decoration-style: double;
+}
+
 .progress {
   --bs-progress-height: 1rem;
   --bs-progress-font-size: 0.75rem;
@@ -61,6 +65,11 @@
 
 .shipping-info {
   margin-left: 2rem;
+}
+
+.delete-icon {
+  height: 20px;
+  width: 20px;
 }
 
 .progress .c1 svg {

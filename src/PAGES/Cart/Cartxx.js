@@ -13,8 +13,7 @@ import "./OrderSucessfull.css";
 import { useRecoilState } from "recoil";
 import { orderSuccessfulProvider } from "../../Providers/OrderSuccessfulProvider";
 import OrderSuccessful from "../../COMPONENTS/Order/OrderSuccessful";
-
-export const Cart = () => {
+const Cart = () => {
   const [cartdata, setcartdata] = React.useState([]);
   const [subtotal, setsubtotal] = React.useState(0);
   const [shipping, setshipping] = React.useState(0);
@@ -36,7 +35,6 @@ export const Cart = () => {
       cart.forEach((item) => {
         tempsubtotal += item.productdata.SalesPrice * item.quantity;
       });
-
       // console.log(tempsubtotal)
       setsubtotal(tempsubtotal);
       setshipping(80);
@@ -85,7 +83,6 @@ export const Cart = () => {
   const [ordersuccesscont, setordersuccesscont] = useRecoilState(
     orderSuccessfulProvider
   );
-
   return (
     <div>
       <Navbar reloadnavbar={reloadnavbar} />
@@ -96,6 +93,10 @@ export const Cart = () => {
           redirecto="userorders"
         />
       )}
+      <SingleBanner
+        heading="My Cart"
+        bannerimage="https://i.ibb.co/MDvzQ7P/IMG-0134.jpg"
+      />
       <div className="cart">
         <div className="progress">
           {active === 1 ? (
@@ -649,7 +650,6 @@ export const Cart = () => {
           </div>
         )}
       </div>
-      {/* hello daniel */}
       <Footer1 />
       <Footer2 />
     </div>
