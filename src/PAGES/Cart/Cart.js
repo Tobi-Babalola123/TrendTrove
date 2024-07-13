@@ -96,6 +96,10 @@ export const Cart = () => {
           redirecto="userorders"
         />
       )}
+      <SingleBanner
+        heading="My Cart"
+        bannerimage="https://i.ibb.co/MDvzQ7P/IMG-0134.jpg"
+      />
       <div className="cart">
         <div className="progress">
           {active === 1 ? (
