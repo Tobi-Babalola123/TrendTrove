@@ -11,14 +11,14 @@
   align-items: center;
   gap: 20px;
   width: 80%;
-  height: 80vh;
+  /* height: 80vh; */
   height: max-content;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   overflow: hidden;
   margin: 0 auto;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   background-color: rgba(0, 0, 0, 0.798);
 }
 

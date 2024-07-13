@@ -1,4 +1,6 @@
 import React from "react";
+import Footer1 from "../../COMPONENTS/Footer/Footer1";
+import Footer2 from "../../COMPONENTS/Footer/Footer2";
 import { Link } from "react-router-dom";
 import Navbar from "../../COMPONENTS/Navbar/Navbar";
 import "./AuthPage.css";
@@ -12,7 +14,7 @@ const Signup = () => {
 
         <form className="authform">
           <h1>Signup</h1>
-          <div className="form-group-row">
+          <div className="form-group">
             <div className="formgroup">
               <label htmlFor="fname">First Name</label>
               <input type="text" id="fname" />
@@ -46,6 +48,8 @@ const Signup = () => {
           </Link>
         </form>
       </div>
+      <Footer1 />
+      <Footer2 />
     </div>
   );
 };

@@ -1,4 +1,6 @@
 import React from "react";
+import Footer1 from "../../COMPONENTS/Footer/Footer1";
+import Footer2 from "../../COMPONENTS/Footer/Footer2";
 import { Link } from "react-router-dom";
 import Navbar from "../../COMPONENTS/Navbar/Navbar";
 import "./AuthPage.css";
@@ -34,6 +36,8 @@ const Login = () => {
           </Link>
         </form>
       </div>
+      <Footer1 />
+      <Footer2 />
     </div>
   );
 };
