@@ -41,10 +41,10 @@ export const Cart = () => {
       setsubtotal(tempsubtotal);
       setshipping(80);
       settax(tempsubtotal * 0.18 + 80 * 0.1);
-      setreloadnavbar(!reloadnavbar);
+      // setreloadnavbar(!reloadnavbar);
     } else {
       console.log("Cart is empty");
-      setreloadnavbar(!reloadnavbar);
+      // setreloadnavbar(!reloadnavbar);
     }
   };
 
@@ -360,8 +360,8 @@ export const Cart = () => {
                         <td data-label="Price">
                           <p>
                             <del className="naira">N</del>{" "}
-                            {item.productdata.SalesPrice
-                              ? item.productdata.SalesPrice.toFixed(2)
+                            {item.productdata.selling_price
+                              ? item.productdata.selling_price.toFixed(2)
                               : 0.0}
                           </p>
                         </td>
@@ -382,12 +382,20 @@ export const Cart = () => {
                               removeitemfromcart(index);
                             }}
                           >
-                            <img
-                              src={delet}
-                              alt="delete-icon"
-                              // height={50}
-                              width={50}
-                            />
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              strokeWidth={1.5}
+                              stroke="currentColor"
+                              className="w-6 h-6"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                              />
+                            </svg>
                           </div>
                         </td>
                       </tr>
@@ -551,7 +559,7 @@ export const Cart = () => {
               &nbsp;&nbsp;
               <span>
                 <del className="naira">N</del>{" "}
-                {(subtotal + tax + shipping).toFixed(2)}
+                {(subtotal + shipping).toFixed(2)}
               </span>
             </div>
           </div>
@@ -644,8 +652,8 @@ export const Cart = () => {
             <button
               className="nextbtn"
               onClick={() => {
-                // setselectedorderid(12345);
-                // setordersuccesscont(true);
+                setselectedorderid(12345);
+                setordersuccesscont(true);
               }}
             >
               View Invoice

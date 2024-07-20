@@ -31,6 +31,11 @@ figure.categories {
   padding: 0px;
 }
 
+.Air {
+  width: 100px;
+  height: 137px;
+}
+
 .homecategories .container:nth-child(1) {
   background-color: #ffffff;
   color: rgb(0, 0, 0);

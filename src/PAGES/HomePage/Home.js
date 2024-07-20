@@ -12,6 +12,8 @@ import img4 from "../../ASSETS/Images/earring.jpeg";
 import img5 from "../../ASSETS/Images/jacket.png";
 import img6 from "../../ASSETS/Images/jeans.png";
 import ProductsSlider from "../../COMPONENTS/Product/ProductsSlider";
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 const Home = () => {
   const products = [
@@ -466,6 +468,25 @@ const Home = () => {
       ],
     },
   ];
+
+  // useEffect(() => {
+  //   // eslint-disable-next-line react-hooks/rules-of-hooks
+  //   const [products, setProducts] = useState([null]);
+  //   const fetchData = async () => {
+  //     try {
+  //       const response = await axios.get(
+  //         "https://timbu-get-all-products.reavdev.workers.dev/?organization_id=98adba052ce04c3693f7fad4e89fa652&reverse_sort=false&page=1&size=10&Appid=9BZ3AEPNIZ7YZXO&Apikey=eb146e10096142cc9d16da9fc9eb1f1a20240713185756063693"
+  //       );
+  //       console.log("result>>>", products);
+  //       setProducts(response.data.items);
+  //     } catch (error) {
+  //       console.error("Error fetching data:", error);
+  //     }
+  //   };
+  //   // console.log(products);
+
+  //   fetchData();
+  // }, []);
   return (
     <div>
       <Navbar reloadnavbar={false} />

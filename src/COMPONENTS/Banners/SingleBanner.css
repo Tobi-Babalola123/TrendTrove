@@ -6,14 +6,14 @@
 .singlebanner {
   position: relative;
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   overflow: hidden;
 }
 
 .singlebanner img {
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
+  object-fit: cover;
 }
 
 .singlebanner .bannerimgfilter {

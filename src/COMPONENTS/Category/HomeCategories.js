@@ -1,7 +1,7 @@
 import React from "react";
 import "./HomeCategories.css";
 import img1 from "../../ASSETS/Images/earring.png";
-import img2 from "../../ASSETS/Images/Airr.png";
+import img2 from "../../ASSETS/Images/Air fryer.jpeg";
 import img3 from "../../ASSETS/Images/3.png";
 import img4 from "../../ASSETS/Images/4.png";
 
@@ -23,7 +23,7 @@ const HomeCategories = () => {
           <div className="col-xl-3 col-md-4 col-6">
             {" "}
             <figure className="categories">
-              <img src={img2} className="clothing-tag" alt="clothing" />
+              <img src={img2} className="Air" alt="clothing" />
               <figcaption className="category-names">
                 <a className="category-label" href="#">
                   {" "}

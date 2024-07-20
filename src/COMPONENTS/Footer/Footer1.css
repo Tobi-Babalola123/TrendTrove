@@ -1,4 +1,5 @@
 .footer1 {
+  font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,6 +9,14 @@
   height: 350px;
   margin-top: 30px;
   /* overflow: hidden; */
+}
+
+.footer-title {
+  width: 109% !important;
+  margin-left: -9rem !important;
+  font-size: 4rem !important;
+  font-weight: 700 !important;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* .footer1 .left{
@@ -30,6 +39,7 @@
 }
 
 .footer1 .right p {
+  font-family: "Montserrat", sans-serif;
   width: 60%;
   font-size: 20px;
   font-weight: 300;

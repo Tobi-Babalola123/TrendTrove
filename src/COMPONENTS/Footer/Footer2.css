@@ -1,4 +1,5 @@
 .footer {
+  font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,8 +28,11 @@
   flex-direction: column;
 }
 .footerin1 .f1 h2 {
-  font-family: "Archivo Black", sans-serif;
+  font-family: "Pacifico", cursive;
   font-size: 1.9rem;
+}
+.footerin1 .f1 h2:hover {
+  color: orangered;
 }
 
 .footerin1 .f1 img {
@@ -77,11 +81,6 @@
   border: 1px solid #e0e0e0;
   margin: 10px 0px;
   padding: 5px 5px;
-}
-
-.footerin1 .icon1 {
-  /* background-color: aqua; */
-  /* max-width: 40px; */
 }
 
 .footerin1 .icon1 svg {

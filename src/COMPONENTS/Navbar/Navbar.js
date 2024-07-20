@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import LocalMallIcon from "@mui/icons-material/LocalMall";
 import "./Navbar.css";
 import Dropdown from "react-bootstrap/Dropdown";
 import { Link } from "react-router-dom";
@@ -31,6 +32,7 @@ const Navbar = ({ reloadnavbar }) => {
         <h2>
           <Link to={"/"} className="brand-title">
             TrendTrove
+            <LocalMallIcon />
           </Link>
         </h2>
 
