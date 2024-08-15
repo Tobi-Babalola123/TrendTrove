@@ -1,3 +1,15 @@
+**About Me:**
+Hi there I'm Tobi Babalola a frontend developer with (Reactjs), HTML, CSS, and Javascript.
+
+**TrendTrove**
+
+TrendTrove is a dynamic e-commerce platform leveraging the power of reactjs with TypeScript for a seamless and efficient frontend and backend experience. This modern tech stack enables TrendTrove to deliver a responsive, high-performance user interface while maintaining a flexible and secure server infrastructure.
+
+Website Link :- https://trend-trove-beryl.vercel.app/
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
