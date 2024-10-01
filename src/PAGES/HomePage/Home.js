@@ -6,14 +6,14 @@ import Footer2 from "../../COMPONENTS/Footer/Footer2";
 import Navbar from "../../COMPONENTS/Navbar/Navbar";
 import Product_Sidebar from "../../COMPONENTS/Product/Product_Sidebar";
 import img1 from "../../ASSETS/Images/pots.png";
-import img2 from "../../ASSETS/Images/sneakers.png";
+import img2 from "../../ASSETS/Images/sneak.jpg";
 import img3 from "../../ASSETS/Images/Air fryer.jpeg";
 import img4 from "../../ASSETS/Images/earring.jpeg";
 import img5 from "../../ASSETS/Images/jacket.png";
-import img6 from "../../ASSETS/Images/jeans.png";
+import img6 from "../../ASSETS/Images/blue-pair.avif";
 import ProductsSlider from "../../COMPONENTS/Product/ProductsSlider";
-import { useState, useEffect } from "react";
-import axios from "axios";
+// import { useState, useEffect } from "react";
+// import axios from "axios";
 
 const Home = () => {
   const products = [
