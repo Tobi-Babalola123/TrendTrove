@@ -4,6 +4,7 @@ import img1 from "../../ASSETS/Images/earring.png";
 import img2 from "../../ASSETS/Images/Air fryer.jpeg";
 import img3 from "../../ASSETS/Images/3.png";
 import img4 from "../../ASSETS/Images/4.png";
+import { Link } from "react-scroll";
 
 const HomeCategories = () => {
   return (
@@ -14,9 +15,9 @@ const HomeCategories = () => {
             <figure className="categories">
               <img src={img1} className="clothing-tags" alt="clothing" />
               <figcaption className="category-name">
-                <a className="category-label" href="#">
+                <Link to="/Home" className="category-label" href="#">
                   Hoop Earrings
-                </a>
+                </Link>
               </figcaption>
             </figure>
           </div>
@@ -25,10 +26,16 @@ const HomeCategories = () => {
             <figure className="categories">
               <img src={img2} className="Air" alt="clothing" />
               <figcaption className="category-names">
-                <a className="category-label" href="#">
+                <Link
+                  to="/ProductCard"
+                  spy={true}
+                  smooth={true}
+                  className="category-label"
+                  href="#"
+                >
                   {" "}
                   Air Fryer
-                </a>
+                </Link>
               </figcaption>
             </figure>
           </div>
@@ -37,9 +44,9 @@ const HomeCategories = () => {
             <figure className="categories">
               <img src={img3} className="clothing-tags" alt="clothing" />
               <figcaption className="category-name_kids">
-                <a className="category-label" href="#">
+                <Link to="HomePage" className="category-label" href="#">
                   Lace Dress
-                </a>
+                </Link>
               </figcaption>
             </figure>
           </div>
@@ -47,9 +54,9 @@ const HomeCategories = () => {
             <figure className="categories">
               <img src={img4} className="clothing-tags" alt="clothing" />
               <figcaption className="category-name_kids">
-                <a className="category-label" href="#">
+                <Link to="Product" className="category-label" href="#">
                   Active Wear
-                </a>
+                </Link>
               </figcaption>
             </figure>
           </div>

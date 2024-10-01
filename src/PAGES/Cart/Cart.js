@@ -644,11 +644,14 @@ export const Cart = () => {
         )}
         {active == 4 && (
           <div className="btns">
-            {/* <button className='backbtn'
+            <button
+              className="backbtn"
               onClick={() => {
-                checklogin() && setactive(3)
+                checklogin() && setactive(3);
               }}
-            >Back</button> */}
+            >
+              Back
+            </button>
             <button
               className="nextbtn"
               onClick={() => {
