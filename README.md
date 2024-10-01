@@ -1,3 +1,35 @@
+**About Me:**
+Hi there I'm Tobi Babalola a frontend developer with (Reactjs), HTML, CSS, bootstrap, and Javascript.
+
+**TrendTrove**
+
+TrendTrove is a dynamic e-commerce platform leveraging the power of reactjs with TypeScript for a seamless and efficient frontend and backend experience. This modern tech stack enables TrendTrove to deliver a responsive, high-performance user interface while maintaining a flexible and secure server infrastructure.
+
+Website Link :- https://trend-trove-beryl.vercel.app/
+![trendtrove](https://github.com/user-attachments/assets/609cc547-5785-4b5f-aec6-9590f73ff695)
+
+![trendtrove1](https://github.com/user-attachments/assets/f23a32e3-7285-476d-9b75-0d9583a5e5bb)
+
+![trendtrove2](https://github.com/user-attachments/assets/40b2ca3b-b6fa-4242-9d3d-a439df6920e3)
+![trendtrove3](https://github.com/user-attachments/assets/70beb074-aa46-4c8a-8569-cd835904ded5)
+![trendtrove4](https://github.com/user-attachments/assets/6232ffed-fa70-4137-b4b9-3d79ca4c76e5)
+
+![trendtrove6](https://github.com/user-attachments/assets/90698db5-c7f2-4e55-9369-a9f24f8724aa)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
