@@ -1,23 +1,25 @@
 import React, { useEffect, useState } from "react";
-import LocalMallIcon from "@mui/icons-material/LocalMall";
+// import LocalMallIcon from "@mui/icons-material/LocalMall";
 import "./Navbar.css";
 import Dropdown from "react-bootstrap/Dropdown";
 import { Link } from "react-router-dom";
 import wishlist from "../../ASSETS/Images/wishlist.svg";
 import cartz from "../../ASSETS/Images/cartz.svg";
+import mallIcon from "../../ASSETS/Images/gift.png";
 const Navbar = ({ reloadnavbar }) => {
   const [cartquantity, setcartquantity] = useState(0);
 
   const getcarttotalitems = () => {
     let cart = JSON.parse(localStorage.getItem("cart"));
-    if (cart) {
+
+    if (Array.isArray(cart)) {
       let total = 0;
       cart.forEach((item) => {
         total += item.quantity;
       });
       setcartquantity(total);
     } else {
-      setcartquantity(0);
+      setcartquantity(0); // Set to 0 if cart is not an array
     }
   };
 
@@ -32,7 +34,12 @@ const Navbar = ({ reloadnavbar }) => {
         <h2>
           <Link to={"/"} className="brand-title">
             TrendTrove
-            <LocalMallIcon />
+            <img
+              src={mallIcon}
+              alt="Mall Icon"
+              style={{ width: "24px", height: "24px", marginLeft: "8px" }}
+            />
+            {/* <LocalMallIcon /> */}
           </Link>
         </h2>
 
